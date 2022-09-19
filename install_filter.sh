@@ -25,6 +25,7 @@ wget --version
 
 
 mkdir -p "$temp_dir"
+mkdir -p "$rainbow_filter_dir"
 
 wget \
   --directory-prefix="$temp_dir" \
